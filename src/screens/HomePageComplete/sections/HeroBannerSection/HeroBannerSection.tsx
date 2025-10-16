@@ -97,7 +97,7 @@ export const HeroBannerSection = (): JSX.Element => {
                   letterSpacing: "-0.01em",
                 }}
               >
-                <Link to="/login" className="flex items-center gap-2">
+                <Link to="/contact" className="flex items-center gap-2">
                   Demander une démo
                 </Link>
               </Button>
@@ -226,7 +226,7 @@ export const HeroBannerSection = (): JSX.Element => {
             letterSpacing: "-0.01em",
           }}
         >
-          <Link to="/login" className="flex items-center gap-2">
+          <Link to="/contact" className="flex items-center gap-2">
             Demander une démo
           </Link>
         </Button>

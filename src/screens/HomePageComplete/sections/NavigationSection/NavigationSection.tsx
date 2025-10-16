@@ -5,10 +5,10 @@ import { cn } from "../../../../lib/utils";
 
 const links = [
   { to: "/", label: "Accueil" },
-  { to: "/login", label: "Pour les étudiants" },
-  { to: "/login", label: "Pour les écoles" },
-  { to: "/login", label: "À propos" },
-  { to: "/login", label: "Contact" },
+  { to: "/etudiants", label: "Pour les étudiants" },
+  { to: "/ecoles", label: "Pour les écoles" },
+  { to: "/a-propos", label: "À propos" },
+  { to: "/contact", label: "Contact" },
 ];
 
 export const NavigationSection = (): JSX.Element => {
@@ -61,7 +61,7 @@ export const NavigationSection = (): JSX.Element => {
               boxShadow: "0 4px 16px 0 rgba(98,194,255,0.10)",
             }}
           >
-            <Link to="/login">Demander une démo</Link>
+            <Link to="/contact">Demander une démo</Link>
           </Button>
         </div>
       </nav>
